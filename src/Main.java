@@ -1,3 +1,4 @@
+import br.com.dalcimar.dio.desafio.dominio.Conteudo;
 import br.com.dalcimar.dio.desafio.dominio.Curso;
 import br.com.dalcimar.dio.desafio.dominio.Mentoria;
 
@@ -14,6 +15,9 @@ public class Main {
         curso2.setTitulo("curso js");
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
+
+        Conteudo conteudo = new Curso();
+        Conteudo conteudo1 = new Mentoria();
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria java");
